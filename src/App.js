@@ -1,9 +1,12 @@
 import "./App.css";
+import Course from "./Components/Course/Course";
+import Header from "./Components/Headre/Header";
 
 function App() {
   return (
     <div>
-      <h1>Online Educational course</h1>
+      <Header></Header>
+      <Course></Course>
     </div>
   );
 }
